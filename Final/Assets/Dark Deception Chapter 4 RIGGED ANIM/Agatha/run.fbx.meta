@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: a1af36c17fce776429edc63b8f82769f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: run(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: run
+      parentName: run(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000013315805, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Agatha_SHJntGrp
+      parentName: run
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.646978e-23, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Agatha_MAINSHJnt
+      parentName: Agatha_SHJntGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Agatha_ROOTSHJnt
+      parentName: Agatha_MAINSHJnt
+      position: {x: 0.000000007450581, y: 0.71476686, z: -0.075686075}
+      rotation: {x: -0.00000014644401, y: 1.6817824e-15, z: -0.0000000057291007, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Agatha_r_Leg_HipSHJnt
+      parentName: Agatha_ROOTSHJnt
+      position: {x: 0.079446495, y: -0.069767445, z: 0.016428454}
+      rotation: {x: 0.01614726, y: -0.016114963, z: 0.7056931, w: 0.70815027}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Agatha_r_Leg_KneeSHJnt
+      parentName: Agatha_r_Leg_HipSHJnt
+      position: {x: -0.2703998, y: 0.000000012111664, z: 9.926282e-16}
+      rotation: {x: 0.0000012749805, y: -0.028466394, z: 0.00000006030313, w: 0.99959475}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+    - name: Agatha_r_Leg_AnkleSHJnt
+      parentName: Agatha_r_Leg_KneeSHJnt
+      position: {x: -0.25731674, y: 6.767919e-16, z: 0.000000024223327}
+      rotation: {x: 0.10058898, y: 0.051176675, z: -0.0034334608, w: 0.9936051}
+      scale: {x: 1, y: 1, z: 0.99999964}
+    - name: Agatha_r_Leg_BallSHJnt
+      parentName: Agatha_r_Leg_AnkleSHJnt
+      position: {x: -0.07482866, y: 0.000000016412852, z: 0.09717028}
+      rotation: {x: -0.002041295, y: 0.7071015, z: -0.0020414365, w: 0.70710623}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.9999998}
+    - name: Agatha_r_Leg_ToeSHJnt
+      parentName: Agatha_r_Leg_BallSHJnt
+      position: {x: -0.0628677, y: -0.000000024223327, z: -1.9175771e-15}
+      rotation: {x: 1.16415294e-10, y: -0, z: 0.00000004202592, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Agatha_r_SkirtSide_AuxSHJnt
+      parentName: Agatha_r_Leg_HipSHJnt
+      position: {x: -0.20487058, y: -0.10210554, z: 0.010593042}
+      rotation: {x: -0.016147228, y: 0.016114917, z: -0.7056931, w: 0.70815027}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: Agatha_r_SkirtFront_AuxSHJnt
+      parentName: Agatha_r_Leg_HipSHJnt
+      position: {x: -0.19874007, y: -0.0021322798, z: 0.12283489}
+      rotation: {x: -0.016147228, y: 0.016114943, z: -0.7056931, w: 0.70815027}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
+    - name: Agatha_r_SkirtBack_AuxSHJnt
+      parentName: Agatha_r_Leg_HipSHJnt
+      position: {x: -0.19392401, y: 0.010978057, z: -0.15086363}
+      rotation: {x: -0.016147226, y: 0.016114932, z: -0.7056931, w: 0.70815027}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: Agatha_l_Leg_HipSHJnt
+      parentName: Agatha_ROOTSHJnt
+      position: {x: -0.07944651, y: -0.069767445, z: 0.016428454}
+      rotation: {x: 0.016114378, y: -0.016147755, z: 0.7081504, w: 0.70569307}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Agatha_l_Leg_KneeSHJnt
+      parentName: Agatha_l_Leg_HipSHJnt
+      position: {x: -0.27039984, y: 3.9253934e-15, z: 0.000000048446655}
+      rotation: {x: -0.00000089686364, y: -0.028466433, z: -0.00000006693881, w: 0.9995948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Agatha_l_Leg_AnkleSHJnt
+      parentName: Agatha_l_Leg_KneeSHJnt
+      position: {x: -0.25731668, y: -0.000000012111666, z: -0.000000024223327}
+      rotation: {x: -0.10005128, y: 0.05117853, z: 0.0034056245, w: 0.9936594}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: Agatha_l_Leg_BallSHJnt
+      parentName: Agatha_l_Leg_AnkleSHJnt
+      position: {x: -0.07482868, y: 0.000000062157675, z: 0.0971703}
+      rotation: {x: 0.0016588345, y: 0.7071024, z: 0.0016591996, w: 0.70710725}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Agatha_l_Leg_ToeSHJnt
+      parentName: Agatha_l_Leg_BallSHJnt
+      position: {x: -0.06286772, y: 0.000000006055832, z: -4.0607517e-16}
+      rotation: {x: 0.000000037020072, y: 0.000000029802322, z: 0.00000004726462, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Agatha_l_SkirtSide_AuxSHJnt
+      parentName: Agatha_l_Leg_HipSHJnt
+      position: {x: -0.20865087, y: 0.07094206, z: 0.008140785}
+      rotation: {x: -0.016114347, y: 0.016147735, z: -0.70815045, w: 0.705693}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: Agatha_l_SkirtFront_AuxSHJnt
+      parentName: Agatha_l_Leg_HipSHJnt
+      position: {x: -0.23951401, y: 0.0036719302, z: 0.101285554}
+      rotation: {x: -0.016114347, y: 0.016147735, z: -0.70815045, w: 0.705693}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+    - name: Agatha_l_SkirtBack_AuxSHJnt
+      parentName: Agatha_l_Leg_HipSHJnt
+      position: {x: -0.2978011, y: -0.0067424118, z: -0.14043353}
+      rotation: {x: -0.016114373, y: 0.01614776, z: -0.70815045, w: 0.705693}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Agatha_Spine_01SHJnt
+      parentName: Agatha_ROOTSHJnt
+      position: {x: -0.0032291603, y: 0.059767958, z: 0.017103123}
+      rotation: {x: 0.00000012639387, y: 0.00000021065645, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000002}
+    - name: Agatha_Spine_02SHJnt
+      parentName: Agatha_Spine_01SHJnt
+      position: {x: -0.05953876, y: -0.00463626, z: 0.0039756536}
+      rotation: {x: -0.0000000028645526, y: -0.000000073332494, z: -2.0327685e-14, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Agatha_Spine_03SHJnt
+      parentName: Agatha_Spine_02SHJnt
+      position: {x: -0.05985376, y: -0.0013774777, z: 0.0006284016}
+      rotation: {x: 0.0000000015755004, y: 0.00000005499937, z: -4.7326877e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Agatha_Spine_04SHJnt
+      parentName: Agatha_Spine_03SHJnt
+      position: {x: -0.05980381, y: -0.0023385563, z: 0.0026474644}
+      rotation: {x: 0.000000005872322, y: -0.000000073332494, z: 6.8766594e-15, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Agatha_Spine_TopSHJnt
+      parentName: Agatha_Spine_04SHJnt
+      position: {x: -0.05956269, y: -0.0017919689, z: 0.005386832}
+      rotation: {x: -0.000000006874912, y: 0.00000005499937, z: -1.5094572e-15, w: 1}
+      scale: {x: 0.9999996, y: 0.9999996, z: 0.9999995}
+    - name: Agatha_Neck_01SHJnt
+      parentName: Agatha_Spine_TopSHJnt
+      position: {x: -0.03408135, y: 0.00015420577, z: 0.0014187119}
+      rotation: {x: -0.0000000022916422, y: 0.000000018333122, z: 3.1886087e-16, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: Agatha_Neck_02SHJnt
+      parentName: Agatha_Neck_01SHJnt
+      position: {x: -0.034429584, y: 0.00035489592, z: -0.001575679}
+      rotation: {x: 0.0000000045832773, y: 0.000000018333118, z: 1.0872355e-15, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Agatha_Neck_TopSHJnt
+      parentName: Agatha_Neck_02SHJnt
+      position: {x: -0.03498992, y: 0.00002211601, z: 0.0043013603}
+      rotation: {x: -0.0000000022916422, y: -0.00000002749968, z: -1.7832004e-15, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Agatha_Head_TopSHJnt
+      parentName: Agatha_Neck_TopSHJnt
+      position: {x: -0.12575191, y: -0.000000036334992, z: 0.000000036334992}
+      rotation: {x: -0.00000007291955, y: -0.000000160423, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1.0000002}
+    - name: lf_topLid_jnt3
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.047058724, y: -0.05510878, z: 0.086684525}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lf_btmLid_jnt3
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.0438121, y: -0.0758049, z: 0.083986625}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lf_btmLid_jnt2
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.034211352, y: -0.07816048, z: 0.090250894}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lf_btmLid_jnt1
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.022870524, y: -0.075412005, z: 0.09546097}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lf_topLid_jnt2
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.03647858, y: -0.050710898, z: 0.09380257}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lf_topLid_jnt1
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.022870522, y: -0.054178026, z: 0.09546102}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: rt_btmLid_jnt1
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.022870505, y: -0.07541278, z: 0.09546105}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: rt_topLid_jnt1
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.022870498, y: -0.054178316, z: 0.09546105}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: rt_topLid_jnt2
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.03647845, y: -0.05071119, z: 0.09380267}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: rt_topLid_jnt3
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.047058832, y: -0.055107906, z: 0.08668457}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: rt_btmLid_jnt2
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.034211237, y: -0.07816106, z: 0.09025099}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: rt_btmLid_jnt3
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.043811936, y: -0.07580393, z: 0.08398657}
+      rotation: {x: 1, y: -2.3395942e-15, z: -0.0000000045832667, w: -0.00000012833183}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: Agatha_TopTeeth_AuxSHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.000000012160619, y: -0.12072348, z: 0.086146474}
+      rotation: {x: -0.000000009166558, y: 1.4210853e-14, z: -1.2170616e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Agatha_l_Eye_01SHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.032402452, y: -0.065535374, z: 0.0776911}
+      rotation: {x: 0.5, y: 0.50000006, z: -0.49999994, w: 0.5}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000004}
+    - name: Agatha_r_Eye_01SHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.032402433, y: -0.06553528, z: 0.07769115}
+      rotation: {x: 0.5, y: 0.50000006, z: -0.49999994, w: 0.5}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: Agatha_Hair_02_01SHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.000000025372795, y: 0.024826905, z: -0.07459631}
+      rotation: {x: -0.41934112, y: -0.56934434, z: 0.41934106, w: 0.5693446}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: Agatha_Hair_02_02SHJnt
+      parentName: Agatha_Hair_02_01SHJnt
+      position: {x: -0.08668841, y: 0.000000048446655, z: 4.963141e-16}
+      rotation: {x: 0.00000008940697, y: -0.00000014901161, z: 0.052598953, w: 0.9986158}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1}
+    - name: Agatha_Hair_02_03SHJnt
+      parentName: Agatha_Hair_02_02SHJnt
+      position: {x: -0.097296484, y: 7.219114e-16, z: -0.000000012111664}
+      rotation: {x: -0.000000061089715, y: -0.00000002662592, z: -0.00000007823106, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Agatha_Hair_01_01SHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: -0.0791952, y: -0.022020271, z: 0.019160228}
+      rotation: {x: 0.27275288, y: -0.21813014, z: 0.59575015, w: 0.7232613}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Agatha_Hair_01_02SHJnt
+      parentName: Agatha_Hair_01_01SHJnt
+      position: {x: -0.07734726, y: -0.000000024223342, z: 0.0000000968933}
+      rotation: {x: -0.00000022351739, y: -0.00000004470348, z: 0.18915302, w: 0.98194766}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Agatha_Hair_01_03SHJnt
+      parentName: Agatha_Hair_01_02SHJnt
+      position: {x: -0.07347967, y: 0.000000024223336, z: 5.8655304e-15}
+      rotation: {x: -0.00000022217814, y: 0.00000042217582, z: 0.00000029802322, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000001}
+    - name: Agatha_Hair_03_01SHJnt
+      parentName: Agatha_Head_TopSHJnt
+      position: {x: 0.073969044, y: -0.011054852, z: 0.01045153}
+      rotation: {x: 0.62879294, y: 0.7244241, z: 0.2258045, w: -0.16982834}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000004}
+    - name: Agatha_Hair_03_02SHJnt
+      parentName: Agatha_Hair_03_01SHJnt
+      position: {x: -0.06642473, y: -0.0000000121116654, z: -0.000000048446655}
+      rotation: {x: -0.00000014156102, y: -0.000000119209275, z: 0.09167149, w: 0.9957893}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Agatha_Hair_03_03SHJnt
+      parentName: Agatha_Hair_03_02SHJnt
+      position: {x: -0.0753142, y: 0.000000024223326, z: -0.000000048446655}
+      rotation: {x: -0.00000012398367, y: 0.00000011616303, z: -0.000000059604645, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Agatha_Head_JawSHJnt
+      parentName: Agatha_Neck_TopSHJnt
+      position: {x: -0.01098051, y: 0.00029395142, z: 0.050981976}
+      rotation: {x: -0.00000007940129, y: -0.00000016690473, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Agatha_Head_JawEndSHJnt
+      parentName: Agatha_Head_JawSHJnt
+      position: {x: 0.000000015927073, y: -0.06871616, z: 0.04005788}
+      rotation: {x: 0.96565694, y: 0.000000005682789, z: 0.000000003683416, w: 0.25982064}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Agatha_Tongue_01_01SHJnt
+      parentName: Agatha_Head_JawSHJnt
+      position: {x: 0.000000007883094, y: -0.037816975, z: 0.008591871}
+      rotation: {x: -0.48592404, y: 0.5136901, z: -0.4859243, w: 0.5136905}
+      scale: {x: 1.0000002, y: 0.99999976, z: 0.9999999}
+    - name: Agatha_Tongue_01_02SHJnt
+      parentName: Agatha_Tongue_01_01SHJnt
+      position: {x: -0.013807394, y: 0.000000024223327, z: -0.0000000121116654}
+      rotation: {x: -0.00000032782555, y: 0.00000029802322, z: 0.5197311, w: 0.85432994}
+      scale: {x: 1.0000007, y: 1, z: 1.0000005}
+    - name: Agatha_Tongue_01_03SHJnt
+      parentName: Agatha_Tongue_01_02SHJnt
+      position: {x: -0.015221141, y: -0.008028967, z: 0.000000004190995}
+      rotation: {x: -0.000000074505806, y: -0, z: 0.2609565, w: 0.96535057}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: Agatha_Tongue_01_04SHJnt
+      parentName: Agatha_Tongue_01_03SHJnt
+      position: {x: -0.013579428, y: -1.8047785e-16, z: 0}
+      rotation: {x: 0.000000013800161, y: -0.00000003460252, z: -0.000000059604645, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Agatha_BtmTeeth_AuxSHJnt
+      parentName: Agatha_Head_JawSHJnt
+      position: {x: 0.000000007840723, y: -0.03286496, z: 0.03125195}
+      rotation: {x: 0.000000036666233, y: -0.0000000022916564, z: -1.1322481e-14, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Agatha_r_Arm_ClavicleSHJnt
+      parentName: Agatha_Spine_TopSHJnt
+      position: {x: -0.000000050478327, y: 0.027079476, z: -0.000000002878986}
+      rotation: {x: 0.010376286, y: -0.0103764655, z: 0.7321701, w: 0.6809639}
+      scale: {x: 0.99999964, y: 0.99999964, z: 0.9999998}
+    - name: Agatha_r_Arm_ShoulderSHJnt
+      parentName: Agatha_r_Arm_ClavicleSHJnt
+      position: {x: 0.07313757, y: -0.029229853, z: -0.011846177}
+      rotation: {x: 0.11727902, y: 0.004885381, z: -0.058561984, w: 0.99135876}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: Agatha_r_Arm_ElbowSHJnt
+      parentName: Agatha_r_Arm_ShoulderSHJnt
+      position: {x: 0.35142982, y: -0.000000048446662, z: 0.000000036334974}
+      rotation: {x: -0.0026930263, y: -0.026818829, z: 0.016144725, w: 0.99950635}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000004}
+    - name: Agatha_r_Arm_WristSHJnt
+      parentName: Agatha_r_Arm_ElbowSHJnt
+      position: {x: 0.37848487, y: -9.0238926e-17, z: -1.3535839e-16}
+      rotation: {x: -0.18820103, y: -0.018039202, z: -0.12858321, w: 0.9735098}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: Agatha_r_Thumb_01_01SHJnt
+      parentName: Agatha_r_Arm_WristSHJnt
+      position: {x: 0.028618066, y: -0.015636371, z: 0.018900525}
+      rotation: {x: 0.56259125, y: -0.33800322, z: 0.15766484, w: 0.73782563}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000007}
+    - name: Agatha_r_Thumb_01_02SHJnt
+      parentName: Agatha_r_Thumb_01_01SHJnt
+      position: {x: 0.07078985, y: 0.00000004844663, z: -0.000000048446655}
+      rotation: {x: -0.00000008940697, y: -0.000001013279, z: 0.028748378, w: -0.99958676}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Agatha_r_Thumb_01_03SHJnt
+      parentName: Agatha_r_Thumb_01_02SHJnt
+      position: {x: 0.0326622, y: 0.000000024223327, z: -2.2559732e-14}
+      rotation: {x: 0.00000022351742, y: -0, z: -0.00000014901161, w: 1}
+      scale: {x: 0.9999999, y: 0.99999934, z: 0.99999994}
+    - name: Agatha_r_Finger_01_01SHJnt
+      parentName: Agatha_r_Arm_WristSHJnt
+      position: {x: 0.10336122, y: -0.0046106004, z: 0.027276237}
+      rotation: {x: 0.103238165, y: -0.018805927, z: -0.024322933, w: 0.99418145}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: Agatha_r_Finger_01_02SHJnt
+      parentName: Agatha_r_Finger_01_01SHJnt
+      position: {x: 0.075200014, y: -3.699796e-15, z: 0.000000024223327}
+      rotation: {x: -0.0035659566, y: 0.00014056626, z: 0.0352875, w: -0.9993708}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000004}
+    - name: Agatha_r_Finger_01_03SHJnt
+      parentName: Agatha_r_Finger_01_02SHJnt
+      position: {x: 0.06650013, y: 1.2272494e-14, z: 0.000000036334992}
+      rotation: {x: 0.013508602, y: 0.0032509142, z: -0.027127318, w: 0.9995354}
+      scale: {x: 1.0000007, y: 1, z: 1.0000001}
+    - name: Agatha_r_Finger_01_04SHJnt
+      parentName: Agatha_r_Finger_01_03SHJnt
+      position: {x: 0.06278856, y: -0.000000048446648, z: 0.00000002422332}
+      rotation: {x: -0.0000002393499, y: -0.0000001238659, z: -0.29218474, w: 0.95636195}
+      scale: {x: 0.99999905, y: 0.99999994, z: 0.99999875}
+    - name: Agatha_r_Finger_02_01SHJnt
+      parentName: Agatha_r_Arm_WristSHJnt
+      position: {x: 0.10634961, y: 0.008616566, z: 0.0096652135}
+      rotation: {x: 0.11117966, y: -0.019779354, z: -0.024681084, w: 0.9932969}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: Agatha_r_Finger_02_02SHJnt
+      parentName: Agatha_r_Finger_02_01SHJnt
+      position: {x: 0.08376654, y: -0.0000000968933, z: -0.000000036335024}
+      rotation: {x: 0.005779435, y: 0.008418273, z: -0.03468051, w: 0.9993464}
+      scale: {x: 1.0000007, y: 1, z: 1}
+    - name: Agatha_r_Finger_02_03SHJnt
+      parentName: Agatha_r_Finger_02_02SHJnt
+      position: {x: 0.07329754, y: 0, z: 6.7679196e-17}
+      rotation: {x: 0.00000015040852, y: 0.000000021420409, z: 0.02764287, w: -0.99961793}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.99999994}
+    - name: Agatha_r_Finger_02_04SHJnt
+      parentName: Agatha_r_Finger_02_03SHJnt
+      position: {x: 0.076596364, y: -1.7145396e-15, z: -0.000000012111664}
+      rotation: {x: -0.00000021234152, y: 0.000000050291412, z: -0.13389766, w: 0.99099517}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000002}
+    - name: Agatha_r_Finger_03_01SHJnt
+      parentName: Agatha_r_Arm_WristSHJnt
+      position: {x: 0.1059946, y: 0.011260225, z: -0.011210762}
+      rotation: {x: 0.067165814, y: -0.015544556, z: -0.024644362, w: 0.99731636}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999994}
+    - name: Agatha_r_Finger_03_02SHJnt
+      parentName: Agatha_r_Finger_03_01SHJnt
+      position: {x: 0.08012015, y: 0.000000096893295, z: 0.000000036335027}
+      rotation: {x: 0.004543085, y: 0.0058490024, z: -0.012883977, w: 0.9998897}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Agatha_r_Finger_03_03SHJnt
+      parentName: Agatha_r_Finger_03_02SHJnt
+      position: {x: 0.06810153, y: -0.0028631005, z: -0.000000035640344}
+      rotation: {x: -0.00000006612385, y: -0.000000021886065, z: 0.045761988, w: -0.99895245}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Agatha_r_Finger_03_04SHJnt
+      parentName: Agatha_r_Finger_03_03SHJnt
+      position: {x: 0.07113655, y: -0.00000004844665, z: -0.000000024223324}
+      rotation: {x: -0.00000015634578, y: 0.000000053434633, z: -0.13913806, w: 0.99027306}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.9999998}
+    - name: Agatha_r_Finger_04_01SHJnt
+      parentName: Agatha_r_Arm_WristSHJnt
+      position: {x: 0.09709573, y: 0.0054418547, z: -0.033118103}
+      rotation: {x: 0.07137766, y: -0.021649864, z: -0.028370252, w: 0.99681073}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1}
+    - name: Agatha_r_Finger_04_02SHJnt
+      parentName: Agatha_r_Finger_04_01SHJnt
+      position: {x: 0.060007382, y: -0.000000048446633, z: -0.00000003633501}
+      rotation: {x: -0.012608665, y: -0.005024962, z: 0.048328068, w: -0.99873936}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000002}
+    - name: Agatha_r_Finger_04_03SHJnt
+      parentName: Agatha_r_Finger_04_02SHJnt
+      position: {x: 0.06482255, y: 0.0023208854, z: -0.000000013417192}
+      rotation: {x: 0.009119681, y: 0.002014674, z: -0.008344241, w: 0.9999216}
+      scale: {x: 0.9999996, y: 1.0000005, z: 0.99999994}
+    - name: Agatha_r_Finger_04_04SHJnt
+      parentName: Agatha_r_Finger_04_03SHJnt
+      position: {x: 0.055425007, y: 7.309353e-15, z: -0.000000036334992}
+      rotation: {x: -0.00000017881392, y: 0.00000001117587, z: -0.32935196, w: 0.9442072}
+      scale: {x: 1, y: 1.0000015, z: 1.0000001}
+    - name: Agatha_l_Arm_ClavicleSHJnt
+      parentName: Agatha_Spine_TopSHJnt
+      position: {x: 0.0000000011200905, y: -0.027079463, z: 0.0000000028789844}
+      rotation: {x: -0.010376391, y: 0.010376132, z: 0.68096393, w: 0.73217005}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999999}
+    - name: Agatha_l_Arm_ShoulderSHJnt
+      parentName: Agatha_l_Arm_ClavicleSHJnt
+      position: {x: -0.073137596, y: -0.029229853, z: -0.011846177}
+      rotation: {x: 0.11727899, y: -0.004885308, z: 0.05856181, w: 0.9913588}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: Agatha_l_Arm_ElbowSHJnt
+      parentName: Agatha_l_Arm_ShoulderSHJnt
+      position: {x: -0.35142982, y: -1.1189627e-14, z: 0.000000012111664}
+      rotation: {x: -0.0026930561, y: 0.02681878, z: -0.016144713, w: 0.99950635}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Agatha_l_Arm_WristSHJnt
+      parentName: Agatha_l_Arm_ElbowSHJnt
+      position: {x: -0.37848487, y: -7.219114e-16, z: -5.0759396e-17}
+      rotation: {x: -0.18820077, y: 0.018039245, z: 0.12858386, w: 0.9735097}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Agatha_l_Thumb_01_01SHJnt
+      parentName: Agatha_l_Arm_WristSHJnt
+      position: {x: -0.028618066, y: -0.015636211, z: 0.01890054}
+      rotation: {x: 0.5625914, y: 0.33800268, z: -0.15766531, w: 0.73782575}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Agatha_l_Thumb_01_02SHJnt
+      parentName: Agatha_l_Thumb_01_01SHJnt
+      position: {x: -0.070789866, y: -2.1206147e-14, z: -0.000000048446655}
+      rotation: {x: -0.00000032782543, y: 0.00000008940694, z: 0.02874865, w: 0.99958664}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000005}
+    - name: Agatha_l_Thumb_01_03SHJnt
+      parentName: Agatha_l_Thumb_01_02SHJnt
+      position: {x: -0.032662176, y: -0.000000024223315, z: 0.000000048446655}
+      rotation: {x: 0.00000016391277, y: -0, z: 0.00000011920929, w: 1}
+      scale: {x: 0.9999998, y: 0.99999905, z: 0.99999905}
+    - name: Agatha_l_Finger_01_01SHJnt
+      parentName: Agatha_l_Arm_WristSHJnt
+      position: {x: -0.10336115, y: -0.0046104114, z: 0.027276278}
+      rotation: {x: 0.10323862, y: 0.018805463, z: 0.024322532, w: 0.9941814}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000004}
+    - name: Agatha_l_Finger_01_02SHJnt
+      parentName: Agatha_l_Finger_01_01SHJnt
+      position: {x: -0.075199924, y: 1.2994405e-14, z: 4.8616222e-14}
+      rotation: {x: 0.003565674, y: 0.00014110272, z: 0.035288617, w: 0.9993709}
+      scale: {x: 1.0000007, y: 0.99999976, z: 0.99999994}
+    - name: Agatha_l_Finger_01_03SHJnt
+      parentName: Agatha_l_Finger_01_02SHJnt
+      position: {x: -0.06650018, y: -3.952465e-14, z: -0.00000004844665}
+      rotation: {x: 0.013509042, y: -0.0032510478, z: 0.027129639, w: 0.9995354}
+      scale: {x: 1.0000011, y: 0.99999946, z: 1.0000001}
+    - name: Agatha_l_Finger_01_04SHJnt
+      parentName: Agatha_l_Finger_01_03SHJnt
+      position: {x: -0.062788635, y: -0.00000009689331, z: 0.000000012111685}
+      rotation: {x: -0.00000014156103, y: 0.00000012572855, z: 0.2921847, w: 0.956362}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Agatha_l_Finger_04_01SHJnt
+      parentName: Agatha_l_Arm_WristSHJnt
+      position: {x: -0.09709567, y: 0.0054417425, z: -0.033118177}
+      rotation: {x: 0.07137788, y: 0.021648936, z: 0.02836956, w: 0.9968108}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1}
+    - name: Agatha_l_Finger_04_02SHJnt
+      parentName: Agatha_l_Finger_04_01SHJnt
+      position: {x: -0.060007334, y: 0.00000009689331, z: 0.000000048446562}
+      rotation: {x: 0.01260809, y: -0.0050242315, z: 0.04832624, w: 0.9987394}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: Agatha_l_Finger_04_03SHJnt
+      parentName: Agatha_l_Finger_04_02SHJnt
+      position: {x: -0.064822495, y: 0.0023208854, z: -0.000000013065251}
+      rotation: {x: 0.009119671, y: -0.0020146791, z: 0.008345068, w: 0.99992156}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: Agatha_l_Finger_04_04SHJnt
+      parentName: Agatha_l_Finger_04_03SHJnt
+      position: {x: -0.055425007, y: -0.000000048446655, z: -0.000000036334963}
+      rotation: {x: -0.0000001527369, y: -0.000000078231096, z: 0.32935193, w: 0.94420725}
+      scale: {x: 1.0000002, y: 1.000001, z: 1}
+    - name: Agatha_l_Finger_03_01SHJnt
+      parentName: Agatha_l_Arm_WristSHJnt
+      position: {x: -0.10599457, y: 0.0112603335, z: -0.011210783}
+      rotation: {x: 0.06716593, y: 0.015544388, z: 0.024642851, w: 0.99731636}
+      scale: {x: 1.0000007, y: 1, z: 1}
+    - name: Agatha_l_Finger_03_02SHJnt
+      parentName: Agatha_l_Finger_03_01SHJnt
+      position: {x: -0.08012013, y: -4.5119463e-15, z: -0.000000024223327}
+      rotation: {x: 0.004543093, y: -0.0058495696, z: 0.012885809, w: 0.99988955}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Agatha_l_Finger_03_03SHJnt
+      parentName: Agatha_l_Finger_03_02SHJnt
+      position: {x: -0.06810156, y: -0.0028631974, z: -0.000000023929086}
+      rotation: {x: -0.000000111293, y: -0.00000032829104, z: 0.045761112, w: 0.9989525}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1}
+    - name: Agatha_l_Finger_03_04SHJnt
+      parentName: Agatha_l_Finger_03_03SHJnt
+      position: {x: -0.0711365, y: -0.000000048446655, z: 0.000000012111677}
+      rotation: {x: -0.00000009522774, y: -0.000000032130632, z: 0.139138, w: 0.99027306}
+      scale: {x: 0.99999875, y: 1, z: 0.9999996}
+    - name: Agatha_l_Finger_02_01SHJnt
+      parentName: Agatha_l_Arm_WristSHJnt
+      position: {x: -0.1063496, y: 0.008616744, z: 0.009665131}
+      rotation: {x: 0.111179344, y: 0.01977841, z: 0.024681555, w: 0.9932969}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000002}
+    - name: Agatha_l_Finger_02_02SHJnt
+      parentName: Agatha_l_Finger_02_01SHJnt
+      position: {x: -0.0837665, y: 3.6095572e-15, z: 0.000000012111621}
+      rotation: {x: 0.0057796803, y: -0.008417674, z: 0.03468114, w: 0.99934626}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+    - name: Agatha_l_Finger_02_03SHJnt
+      parentName: Agatha_l_Finger_02_02SHJnt
+      position: {x: -0.07329751, y: -1.8047786e-15, z: -0.000000024223315}
+      rotation: {x: -0.00000018393612, y: -0.0000006519255, z: 0.027641922, w: 0.99961793}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Agatha_l_Finger_02_04SHJnt
+      parentName: Agatha_l_Finger_02_03SHJnt
+      position: {x: -0.07659634, y: -0.000000048446655, z: 8.505019e-15}
+      rotation: {x: -0.00000012665987, y: -0.00000012293458, z: 0.13389775, w: 0.9909952}
+      scale: {x: 0.99999946, y: 1.0000007, z: 1.0000002}
+    - name: Agatha_Idle
+      parentName: run(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
